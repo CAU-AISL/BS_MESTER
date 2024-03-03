@@ -1,0 +1,5 @@
+accel_for_model_test : 여러 경로 기준 RMSE 측정 코드 
+accel_model_test : 한 경로에서 RMSE 측정 코드
+accel_model_train : train_set_accel_s6.npz으로 모델 학습
+accel_train_set : train_set_accel_s6.npz 생성
+generate_accle_nonlinear_path : 학습 경로 플롯
