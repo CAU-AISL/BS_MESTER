@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="a70b791d-f084-4579-9aca-531229436649">
+    <modelName>Dynamics3</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="2720072f-8aab-475e-8b73-f09d4b0fc263">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="25dcbef0-96f8-4370-929e-feb541292465"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1d3892e5-81b6-46b7-921a-e136e90c8176">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="730bc45d-bd2f-4c5a-8280-d6410846cf10"/>
+    <valueIndices>3</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="8d8e2680-9591-4be4-b132-cc943cb5471a">
+    <blockPath>Dynamics3/Digital Twin/6DOF (Euler Angles)1</blockPath>
+    <name>Vm_0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="25dcbef0-96f8-4370-929e-feb541292465"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="25dcbef0-96f8-4370-929e-feb541292465">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="8d8e2680-9591-4be4-b132-cc943cb5471a"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="2720072f-8aab-475e-8b73-f09d4b0fc263"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="730bc45d-bd2f-4c5a-8280-d6410846cf10">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="f220e9d8-6605-456b-b15f-21d0b87381b6"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="1d3892e5-81b6-46b7-921a-e136e90c8176"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="f220e9d8-6605-456b-b15f-21d0b87381b6">
+    <blockPath>Dynamics3/Digital Twin/6DOF (Euler Angles)1</blockPath>
+    <name>eul_0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="730bc45d-bd2f-4c5a-8280-d6410846cf10"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="44fa9a54-6702-4a1f-b1ba-f84ad77aa693">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="d27aa791-5c5e-404d-9319-76981bd38bab"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="c561d83d-31cf-4dbd-bdf1-427c137e3cc7"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="d27aa791-5c5e-404d-9319-76981bd38bab">
+    <blockPath>Dynamics3/Digital Twin/6DOF (Euler Angles)1</blockPath>
+    <name>inertia</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="44fa9a54-6702-4a1f-b1ba-f84ad77aa693"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="c561d83d-31cf-4dbd-bdf1-427c137e3cc7">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="44fa9a54-6702-4a1f-b1ba-f84ad77aa693"/>
+    <valueIndices>6</valueIndices>
+    <valueIndices>14</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="f465b5c9-5b07-49cf-a1a5-d03f2c50a00e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="69b28fac-ea5b-497f-b961-d1e5fad10e31"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b60e84a2-19a0-41a3-b71b-efd725a710c4"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="69641250-15a6-4e9f-85b8-4d47a919a5a8">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="4bb14de1-c6d9-496f-b43a-14255b2143f8"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="200c6903-2929-4212-95ff-5ed2326dda3c"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="69b28fac-ea5b-497f-b961-d1e5fad10e31">
+    <blockPath>Dynamics3/Digital Twin/6DOF (Euler Angles)1</blockPath>
+    <name>xme_0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="f465b5c9-5b07-49cf-a1a5-d03f2c50a00e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b60e84a2-19a0-41a3-b71b-efd725a710c4">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="f465b5c9-5b07-49cf-a1a5-d03f2c50a00e"/>
+    <valueIndices>20</valueIndices>
+    <valueIndices>22</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="4bb14de1-c6d9-496f-b43a-14255b2143f8">
+    <blockPath>Dynamics3/Digital Twin/Force and Moments/Gravity/Constant</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="69641250-15a6-4e9f-85b8-4d47a919a5a8"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="a08ba8d6-d95d-4ce3-b40a-193ef149dadb">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="6f224d66-4a1a-44ab-8b03-70b0547f98e6"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="681df2c3-3a06-495b-baa3-548b9bd48ced"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="200c6903-2929-4212-95ff-5ed2326dda3c">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="69641250-15a6-4e9f-85b8-4d47a919a5a8"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>118</valueIndices>
+    <valueIndices>120</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="61c76d19-5747-4275-a891-c84559ba4265">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="9b402415-cfd6-424e-919f-8092b5dc3c5f"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e4a008b1-af3e-4316-9c70-0d6baad64050"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="9b402415-cfd6-424e-919f-8092b5dc3c5f">
+    <workspaceName>global-workspace</workspaceName>
+    <name>minPWM</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="61c76d19-5747-4275-a891-c84559ba4265"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e4a008b1-af3e-4316-9c70-0d6baad64050">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="61c76d19-5747-4275-a891-c84559ba4265"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="6f224d66-4a1a-44ab-8b03-70b0547f98e6">
+    <workspaceName>global-workspace</workspaceName>
+    <name>tiltIni</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a08ba8d6-d95d-4ce3-b40a-193ef149dadb"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="681df2c3-3a06-495b-baa3-548b9bd48ced">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="a08ba8d6-d95d-4ce3-b40a-193ef149dadb"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+</MF0>

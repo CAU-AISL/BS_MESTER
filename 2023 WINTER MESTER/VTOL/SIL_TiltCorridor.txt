@@ -1,0 +1,22 @@
+eVTOL Model and SIL (Software-in-the-loop) System
+
+https://scholarsarchive.byu.edu/etd/9340/
+
+ 
+
+https://youtu.be/mjNmpx4Zpww?si=4wVZztEbM2Rg78zh
+
+ 
+
+Tilt Corridor 관련
+
+https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/19072/Scheduled_flight_control_system-2023.pdf?sequence=1
+
+https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/16443/Wing_tilt_scheduling.pdf?sequence=1&isAllowed=y
+
+
+https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=TRKO201600000321&dbt=TRKO&rn=
+
+ 
+
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7991339

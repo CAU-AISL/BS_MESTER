@@ -1,0 +1,10 @@
+[models 파일]
+(시뮬링크 모델)
+ab : 기존 예제
+Dynamics3: 트림상태 구하기위해 Dynamics 블록만 따로 떼어낸 모델
+VTOL_renewal : autopilot 간략화
+
+[매트랩 코드]
+optimalSolution : Dynamics3 모델을 사용해 세로트림상태 찾기
+StatesSpaceEquation : 계수들을 모두 아는 상황에서 상태공간방정식 만들기
+Trim_StatesSpaceEquation : 시뮬링크 내의 선형화 앱으로 트림상태의 상태공간방정식 구한 후 넣은 것
